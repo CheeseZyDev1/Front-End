@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 var bodyParser = require('body-parser');
 
-const base_url = "http://10.104.3.240:3000";
+const base_url = "http://10.104.3.240:3000" || "http://node56351-noderest-1.proen.app.ruk-com.cloud:11329" ;
 
 app.set('view engine','ejs');
 app.use(bodyParser.json());
