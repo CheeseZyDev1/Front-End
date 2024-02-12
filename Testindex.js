@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
 
-const base_url = "http://localhost:3000";
+const base_url = "http://10.104.3.240:3000";
 
 // Set the template engine
 app.set("views", path.join(__dirname, "/public/views"));
