@@ -4,7 +4,8 @@ const axios = require('axios');
 const app = express();
 var bodyParser = require('body-parser');
 
-const base_url = "http://node56351-noderest-1.proen.app.ruk-com.cloud:11329" ; //"http://localhost:3000";
+const base_url = "http://node56351-noderest-1.proen.app.ruk-com.cloud:11329";
+//"http://node56351-noderest-1.proen.app.ruk-com.cloud:11329" ; //"http://localhost:3000";
 
 // Set the template engine
 app.set("views", path.join(__dirname, "/public/views"));
